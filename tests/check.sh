@@ -1,0 +1,1 @@
+#!/usr/bin/env bash # My first test. It passes only if README.md has a title line starting with "# ". set -e if grep -q "^# " README.md; then echo "✅ README has a title" else echo "❌ README.md needs a title line that starts with # " exit 1 fi
