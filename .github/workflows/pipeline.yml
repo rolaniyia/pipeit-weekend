@@ -33,7 +33,7 @@ jobs:
       - name: Build my status card with my own action
         uses: ./.github/actions/build-card
         with:
-          name: pipeline
+          name: Raphael Olaniyi
           message: Built automatically by my own GitHub Action
 
       - name: Package the website
