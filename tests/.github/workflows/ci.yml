@@ -13,3 +13,8 @@ jobs:
 
       - name: Run my checks
         run: bash tests/check.sh
+
+      - name: Try my own action
+        uses: ./.github/actions/build-card
+        with:
+          name: Raphael Olaniyi
